@@ -27,11 +27,25 @@ In case the integrated model doesn't fit your organisation or you already have a
 * [Large Deployments](#large-deployments): Combing different scenario's to cover more requirements and performance
 
 ### FortiGate connectivity to Virtual WAN Hub
+
 * [FortiGate connectivity to the VPN Gateway inside of Virtual WAN Hub](#fortigate-connectivity-to-the-vpn-gateway-inside-of-virtual-wan-hub)
 
 ## Deployment
 
 Deployment of the different scenario's is either via the Azure Portal, ARM template or Azure CLI depending on the supported functionality in the deployment method. Depending on the availability a link to the Azure Portal, a guide or CLI command will be shown to get your started with the deployment. The links will be provided in each of the scenario subsections.
+
+| Use cases/ Architectures              |   [Virtual WAN - Inside SD-WAN](https://github.com/40net-cloud/fortinet-azure-solutions/tree/main/FortiGate/AzureVirtualWAN) | [Virtual WAN - Inside SDWAN+NGFW](https://github.com/40net-cloud/fortinet-azure-solutions/tree/main/FortiGate/AzureVirtualWAN) | [Virtual WAN](https://github.com/40net-cloud/fortinet-azure-solutions/tree/main/FortiGate/AzureVirtualWAN) | |
+-----------------------|-------------|-----------------------------------|--------------------|-----------------------|
+| North-South (ingress) filtering       |     ?    |         ?        |           YES          |
+| East-West filtering                   |     ?    |         ?        |           YES          |
+| South-North (egress) filtering        |     ?    |         ?        |           YES          |
+| SDWAN                                 |     ?    |         ?        |           YES          |
+| Site to Site VPN                      |     ?    |         ?        |           YES          |
+| Client to Site VPN                    |     ?    |         ?        |           YES          |
+| Express Route Filtering               |     ?    |         ?        |           YES          |
+| Scalability - vertical                |     ?    |         ?        |           YES          |
+| Scalability - horizontal              |     ?    |         ?        |           YES          |
+| Protect resources in multiple regions |     ?    |         ?        |           YES          |
 
 ## Scenarios
 
